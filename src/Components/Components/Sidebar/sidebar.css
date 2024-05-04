@@ -1,0 +1,64 @@
+.sidebar {
+	width: 10%;
+	background-color: #ffffff;
+	/* border-right: 1px solid black; */
+}
+
+.cardsMainDiv {
+	margin-top: 2vh;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+.cards {
+	width: 90%;
+	height: 10vh;
+	background-color: #eff5f3;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.cards.active {
+	background-color: #207744;
+	color: #ffffff;
+}
+
+.cardsTwo {
+	width: 90%;
+	height: 10vh;
+	background-color: #eff5f3;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 0.5vh;
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.cardsTwo.active {
+	background-color: #207744;
+	color: #ffffff;
+}
+
+.cardsThree {
+	width: 90%;
+	height: 10vh;
+	background-color: #eff5f3;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 0.5vh;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.cardsThree.active {
+	background-color: #207744;
+	color: #ffffff;
+}
